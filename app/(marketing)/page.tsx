@@ -22,7 +22,7 @@ export default function Home() {
           Learn, practice, and master new languages with Lingo.
         </h1>
       </div>
-      <div>
+      <div className="flex flex-col items-center gap-y-3 max-w-[330px] w-full">
         <ClerkLoading>
           <Loader className="w-5 h-5 text-muted-foreground animate-spin" />
         </ClerkLoading>
